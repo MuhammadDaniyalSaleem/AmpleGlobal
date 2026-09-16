@@ -1,0 +1,13 @@
+AMPLE GLOBAL BUSINESS SUITE v45 — CUSTOMER DIALOG CLOSE FIX
+
+Do not double-click index.html. Follow README.md to start Django, Redis/Celery, and the frontend server.
+
+Frontend: http://127.0.0.1:5501/index.html
+API:      http://127.0.0.1:8000/api/
+Admin:    http://127.0.0.1:8000/admin/
+
+Demo admin after `python manage.py seed_demo`:
+admin@ampleglobal.com
+ChangeMe123!
+
+Copy .env.example to .env before using PostgreSQL, SMTP, Redis, or Google Drive OAuth.
